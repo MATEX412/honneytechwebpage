@@ -32,7 +32,7 @@ jobs:
       - name: Subir archivos compilados
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/honneytechwebpage/browser
+          path: dist/myapp/browser
 
   deploy:
     environment:
